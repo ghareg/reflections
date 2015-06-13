@@ -18,3 +18,11 @@ to the staging area and this is what will be commited in the next commit.
 Working further on the files will not alter what is in staging area and by 
 commiting it before adding new things to staging area you can make sure that
 you have one commit per logical change.
+
+What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help?
+In the situations when you want to add some feature to the code, but you 
+also want to keep existing state of the code, the branches can be helpful. 
+This is especially true, when you are not sure about this ne feature and it
+is still experimental. By keeping several branches you can develop this new 
+feature and test it, and then merge two branches together.
