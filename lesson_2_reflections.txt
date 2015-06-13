@@ -10,3 +10,11 @@ repository. After you add changes to the staging area, the files contents
 at the moment of addition is what will be the content of next commit.
 It offers the opportunity to review your files before commit and make 
 appropriate changes accordingly.
+
+How can you use the staging area to make sure you have one commit per 
+logical change?
+When you have made logical change to the code you can add those files 
+to the staging area and this is what will be commited in the next commit.
+Working further on the files will not alter what is in staging area and by 
+commiting it before adding new things to staging area you can make sure that
+you have one commit per logical change.
