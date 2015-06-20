@@ -26,3 +26,15 @@ also want to keep existing state of the code, the branches can be helpful.
 This is especially true, when you are not sure about this ne feature and it
 is still experimental. By keeping several branches you can develop this new 
 feature and test it, and then merge two branches together.
+
+How do the diagrams help you visualize the branch structure?
+By drawing diagrams it is easy to see what branches are available and also
+who is the parent of the each commit. It makes also very easy to see non-
+reachable commits.
+
+What is the result of merging two branches together? Why do we represent it
+in the diagram the way we do?
+By merging two branches we create single branch which includes features 
+developed in both branches. We represent it in the diagram to clearly see
+what commits constitue the new merged branch and what commits are not part
+of the branch.
