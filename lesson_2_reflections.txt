@@ -38,3 +38,10 @@ By merging two branches we create single branch which includes features
 developed in both branches. We represent it in the diagram to clearly see
 what commits constitue the new merged branch and what commits are not part
 of the branch.
+
+What are the pros and cons of Git's automatic merging vs. always doing 
+merges manually?
+In case of automatic merging trivial merging conflict will be resolved
+automatically. But in order to do that Git should be pretty smart, so that
+it will not breake code after merging. Obviously these drawbacks can be 
+removed by manual merging.
