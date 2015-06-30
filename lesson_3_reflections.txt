@@ -9,3 +9,11 @@ There can be a case, when new version is available in remote repository
 but still it is full of bugs. In that case you will want to pull at the 
 time when the version in remote is operational, in order to always have
 working version locally.
+
+Describe the difference between forks, clones, and branches. When would
+you use one instead of another?
+By forking the depository you create copy of the repo on your Github 
+account so that you can edit it. Cloning the repo means you create another
+copy of the repo in your local git client. Branches in repo make possible
+to make different version of the code with different additions. They all have
+different purposes so you can not use one instead of another.
