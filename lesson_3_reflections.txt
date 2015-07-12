@@ -17,3 +17,10 @@ account so that you can edit it. Cloning the repo means you create another
 copy of the repo in your local git client. Branches in repo make possible
 to make different version of the code with different additions. They all have
 different purposes so you can not use one instead of another.
+
+What is the benefit of having a copu of the last known state of the remote
+stored locally?
+By having remote locally you can fetch the changes to the remote without 
+affecting the branch you are working on. You can see differences between 
+two branches and merge them together by fixing conflicts when you want.
+
