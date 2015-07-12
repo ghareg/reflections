@@ -30,3 +30,11 @@ Without Git and GitHub, remote directory of the files should be created, and
 everyone who makes changes should put it into other directory. The person under
 control of master directory then adds the changes. Without Git and GitHub the
 whole process will be done by hand and will be very error prone.
+
+When would you want to make changes in a separate branch rather than directly
+in master> What benefits does each approach have?
+Making changes in another branch rather than master gives you the option
+to add new features without braking master branch code. Afterwards you can 
+share your additions with the community and request the pull request once
+appropriate. Working directly on master branch is much easier, but it does not 
+give the flexibilty which you have when working in different branch.
