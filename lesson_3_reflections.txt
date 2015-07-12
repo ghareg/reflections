@@ -24,3 +24,9 @@ By having remote locally you can fetch the changes to the remote without
 affecting the branch you are working on. You can see differences between 
 two branches and merge them together by fixing conflicts when you want.
 
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+Without Git and GitHub, remote directory of the files should be created, and 
+everyone who makes changes should put it into other directory. The person under
+control of master directory then adds the changes. Without Git and GitHub the
+whole process will be done by hand and will be very error prone.
